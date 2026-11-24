@@ -10,6 +10,8 @@ Static HTML, no build step. Four pages share `assets/styles.css` and `assets/sit
 node serve.mjs 4327
 ```
 
+Live preview: https://whereverstudios.github.io/hitmark-group/ (GitHub Pages from `main`, root). When the real domain moves here, point the canonical and `og:image` URLs in the four pages back at hitmarkgroup.com.
+
 Then open http://localhost:4327/. Any static host works (GitHub Pages, Netlify, Squarespace replacement): upload the four `.html` files plus `assets/` and `media/`.
 
 ## Structure
